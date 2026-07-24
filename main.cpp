@@ -9,4 +9,5 @@ int main(){
         f+= i*n;
     }
     cout << f << endl;
+    cout << "Trinh Nguyen Kien Hao"<<endl;
 }
