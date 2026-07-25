@@ -11,6 +11,6 @@ int main(){
     cout << f << endl;
     cout << "Trinh Nguyen Kien Hao"<<endl;
 
-    cout <<"This is Master branch"  <<endl;
+    cout <<"This is Dev branch"  <<endl;
 
 }
