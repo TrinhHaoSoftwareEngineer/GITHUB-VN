@@ -35,8 +35,8 @@ public:
 
 int main(){
 
-    Sound* s1 = new Gun();
-    Sound* s2 = new Boom();
+    sound* s1 = new Gun();
+    sound* s2 = new Boom();
 
     s1->makeSound();
     s2->makeSound();
