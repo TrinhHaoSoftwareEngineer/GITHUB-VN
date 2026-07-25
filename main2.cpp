@@ -28,6 +28,7 @@ public:
 };
 
 int main(){
+    cout << "Hello world" <<endl;
     Sound* s1 = new Cat();
     Sound* s2 = new Dog();
     Sound* s3 = new Cow();
