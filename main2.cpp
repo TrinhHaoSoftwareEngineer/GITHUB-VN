@@ -19,19 +19,6 @@ public:
         cout << "Boom Boom Boom" << endl;
     }
 };
-class dog : public sound{
-public:
-    void makeSound() override{
-        cout << "Gau gau" <<endl;
-    }
-};
-
-class cat : public sound{
-public:
-    void makeSound() override{
-        cout << "Meo meo" <<endl;
-    }
-};
 
 int main(){
 
