@@ -10,4 +10,6 @@ int main(){
     }
     cout << f << endl;
     cout << "Trinh Nguyen Kien Hao"<<endl;
+    
+    cout << "Conflict from master" <<endl;
 }
