@@ -1,9 +1,30 @@
 #include <iostream>
 using namespace std;
 
-void bark(){
-    cout << "Gau Gau";
-}
+class Sound{
+public:
+    virtual void makeSound() = 0;
+};
+
+class Gun : public Sound{
+public:
+    void makeSound() override{
+        cout << "Bang Bang Bang" << endl;
+    }
+};
+
+class Boom : public Sound{
+public:
+    void makeSound() override{
+        cout << "Boom Boom Boom" << endl;
+    }
+};
+
 int main(){
-    bark();
+    Sound* s1 = new Gun();
+    Sound* s2 = new Boom();
+    s1->makeSound();
+    s2->makeSound();
+    delete s1;
+    delete s2;
 }
